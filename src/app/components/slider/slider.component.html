@@ -1,0 +1,18 @@
+
+<ngb-carousel id="carrusel" >
+  <ng-template *ngFor="let torta of tortas" ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img src="{{torta.img}}" alt="Random first slide" id="imagenslider">
+    </div>
+    <div class="carousel-caption">
+      <h3>{{torta.name}}</h3>
+      <p>{{torta.desc}}</p>
+    </div>
+  </ng-template>
+  
+</ngb-carousel>
+
+
+  <!--   
+   }
+-->
