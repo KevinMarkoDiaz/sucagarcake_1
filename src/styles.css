@@ -1,8 +1,8 @@
-/*estilos generales
-.clearfix{
-    float:none;
-    clear: both;
-} */
+/*estilos generales.clearfix{
+   float:none;
+    clear: both;*/
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -13,35 +13,55 @@
 
  
 body{
-    font-family: Arial, Helvetica, sans-serif;
+
+    /* font-family: Arial, Helvetica, sans-serif;*/
     width: 100%;
     height: 1000px;  
-    background: url(C:\Users\KEVIN\Documents\sugarcake\sugarcakes\src\assets\img\imagensc\fondopelo.jpg);
+    background: 255, 255, 255;
     background-attachment: fixed;
 
 }
-section{
-    padding: 20px;
+
+#banner{
+    padding-top: 25%;
+    padding-left: 39%;
+    background-size: cover;
+    width: 100%;
+    height: 66%;
+    background-image: url(C:\Users\KEVIN\Documents\sugarcake\sugarcakes\src\assets\img\imagensc/cupcakes.jpg)
+
 }
+
+#logo{
+    border-radius: 8%;
+    width: 290px;
+    height: 160px;
+    background-size: cover;
+    background-image: url(C:\Users\KEVIN\Documents\sugarcake\sugarcakes\src\assets\img\imagensc/logo.jpg)
+}
+
 header{
+    display: inline-block;
     width: 100%;
     height: 100px;
-    text-transform: uppercase;
-    background: burlywood;
+    background: #FAF7FB;
     position: fixed;
     z-index: 2;
+    font-family: 'Sacramento', cursive;
+    font-style: italic;
+    font-size: 35px;
+
 
 }
 header ul{
-    display: block;
-    width: 40%;
-    height: inherit;
-    margin: 0px auto;
+    display: inline-block;
+    width:50%;
+    position: center;
+
 }
 header ul li{
     display: inline-block;
-    margin: 0px,  auto;
-    margin-left: 20px;
+    margin-left: 20px; 
     text-align: center;
     line-height: 90px;
     color: #000;
@@ -53,14 +73,14 @@ header a{
     padding-right: 20px;
     padding-left: 20px;
     height: inherit;
-    text-align: center;
-    color: white;
+    text-align: justify;
+    color: black;
     transition: all 300ms;
 
 }
-header a:hover
-.active{
-    background: lightblue;
+header a:hover{
+    color: rgb(228, 249, 253);
+    font-size: 37px;
 
 }
 /*contenedor principal*/
@@ -78,7 +98,149 @@ header a:hover
 }
 footer{
     width: 75%;
+    height: 75px;
     margin: 0px auto;
-    padding-top: 15px;
+    padding-top: 20px;
+    padding-left: 30px;
     color: rgba(0, 0, 0, 0.5);
+    background: #FAF7FB;}
+    
+
+
+
+/*Estilos Sobre mi*/
+    
+
+#titulo{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding: 60px;
+    border-bottom:  double;
+    height: 250px;
+    width: 60%;
+    text-align: center;
+    font-family: 'verdana' ;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 25%;
+    left: 20%;
+    border:2px, solid;
+
+
+  
 }
+#titulo h2{
+
+}
+
+.sobreMi{
+    margin: 60px;
+}
+.sobreMi h2{
+    margin-bottom: 30px;
+    font-family: 'Sacramento', cursive;
+    font-style: italic;
+    font-size: 60px;
+}
+
+/*estilos Menu*/
+.menupadre div{
+    display: inline-block; 
+    width: 49%;
+
+}
+
+.menu{
+    padding: 130px;
+
+}
+#imgdecoracion1{
+    position: relative;
+    left:125px;
+    top: -100px;
+    background-image: url(C:\Users\KEVIN\Documents\sugarcake\sugarcakes\src\assets\img\imagensc/lemonpie.jpg);
+    background-size: cover;
+    width : 400px;
+    height: 500px;
+
+
+}
+
+/*Estilos de galeria*/
+
+.galeria1{
+    padding-top:150px;
+    font-family: 'Sacramento', cursive;
+}
+.galeria1 h2{
+    margin:20px 75px 15px 100px;
+    font-weight: 300;
+    font-size: 45px;
+    color:rgb(0, 0, 0);
+    font-style: italic;
+    
+}
+
+.linea{
+    border-top: 5px solid #000;
+}
+
+.contenedor-imagenes{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+
+}
+.imagen{
+    background-size: cover;
+    background-position:center;
+    width: 32%;
+    position: relative;
+    height: 350px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+   
+}
+.imagen :hover{
+    width: 37%;
+    box-shadow: 0px 0px 3px 0px rgba(25, 228, 255, 0.75);
+
+}
+
+#img1{
+    background-image: url("C:\Users\KEVIN\Documents\sugarcake\sugarcakes\src\assets\img\imagensc\imagen1.jpg");
+}
+#img2{
+    background-image: url("C:\Users\KEVIN\Documents\sugarcake\sugarcakes\src\assets\img\imagensc\imagen2.jpg");
+}
+#img3{
+    background-image: url("C:\Users\KEVIN\Documents\sugarcake\sugarcakes\src\assets\img\imagensc\imagen3.jpg");
+}
+#img4{
+    background-image: url("C:\Users\KEVIN\Documents\sugarcake\sugarcakes\src\assets\img\imagensc\imagen4.jpg");
+}
+#img5{
+    padding-top:100px;
+    background-image: url("C:\Users\KEVIN\Documents\sugarcake\sugarcakes\src\assets\img\imagensc\logo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+#img6{
+    background-image: url("C:\Users\KEVIN\Documents\sugarcake\sugarcakes\src\assets\img\imagensc\imagen5.jpg");
+}
+#img7{
+    background-image: url("C:\Users\KEVIN\Documents\sugarcake\sugarcakes\src\assets\img\imagensc\imagen6.jpg");
+}
+#img8{
+    background-image: url("C:\Users\KEVIN\Documents\sugarcake\sugarcakes\src\assets\img\imagensc\imagen7.jpg");
+}
+#img9{
+    background-image: url("C:\Users\KEVIN\Documents\sugarcake\sugarcakes\src\assets\img\imagensc\imagen9.jpg");
+}
+

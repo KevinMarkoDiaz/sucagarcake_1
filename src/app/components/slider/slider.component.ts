@@ -10,13 +10,13 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap'
 export class SliderComponent implements OnInit {
  
   tortas:any[]=[
-    {name:'Tres leches',
+    {name:'SugarCake',
     img:'assets/img/imagensc/tresleches.jpg',
-    desc:'descripcion de tresleches'},
+    desc:''},
     {
-      name:'Selva negra',
+      name:'SugarCake',
       img:'assets/img/imagensc/selvanegra.jpg',
-      desc:'descripcion de selvanegra'}
+      desc:''}
       
   ]
   constructor (private _config:NgbCarouselConfig) {

@@ -1,17 +1,21 @@
-<header>
-    <ul>
-      <li><a [routerLink]="['/sobre-mi']" [routerLinkActive]="['actived']">Sobre mi</a></li>
-      <li><a [routerLink]="['/menu']" [routerLinkActive]="['actived']">Menu</a></li>
-      <li><a [routerLink]="['/galeria']" [routerLinkActive]="['actived']">Galeria</a></li>
-      <li><a [routerLink]="['/contacto']"[routerLinkActive]="['actived']" >Contacto</a></li>
-   </ul>
-</header>
-<section id="content">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+</head>
+
+<header>      
+ 
+    <div><ul> 
+        <li><a [routerLink]="['/sobre-mi']" [routerLinkActive]="['actived']">Sobre mi</a></li>
+        <li><a [routerLink]="['/menu']" [routerLinkActive]="['actived']">Menu</a></li>
+        <li><a [routerLink]="['/galeria']" [routerLinkActive]="['actived']">Galeria</a></li>
+        <li><a [routerLink]="['/contacto']"[routerLinkActive]="['actived']" >Contacto</a></li>
+     </ul>
+  </div>     
     
+</header>
+           <router-outlet></router-outlet>  
 
-
-          <router-outlet></router-outlet>  
-</section>
 <footer>
     <h6>pagina sugarcake</h6> 
 </footer>

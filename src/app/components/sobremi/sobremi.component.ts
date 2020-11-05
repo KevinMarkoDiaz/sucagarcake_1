@@ -11,9 +11,9 @@ export class SobremiComponent implements OnInit {
   public email: string;
 
   constructor() { 
-    this.titulo = "titulo"
-    this.subtitulo = "subtitulo"
-    this.email = "email" 
+    this.titulo = "Sugar Cake"
+    this.subtitulo = "pasteleria artesanal"
+    this.email = "deyeurrieta@gmail.com" 
   }
 
   ngOnInit(): void {
